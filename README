@@ -1,0 +1,69 @@
+void setup() {              
+  // initialize the digital pin as an output.
+  pinMode(LED_BUILTIN, OUTPUT);   
+}
+
+// The loop routine repeats until you power off the Arduino:
+void loop()
+{
+// "S"
+  // ON
+  digitalWrite(LED_BUILTIN, HIGH);   // LED on (HIGH is the voltage level)
+  delay(500);
+  //OFF
+  digitalWrite(LED_BUILTIN, LOW);   // LED on (HIGH is the voltage level)
+  delay(500);
+  // ON
+  digitalWrite(LED_BUILTIN, HIGH);   // LED on (HIGH is the voltage level)
+  delay(500);
+  //OFF
+  digitalWrite(LED_BUILTIN, LOW);   // LED on (HIGH is the voltage level)
+  delay(500);
+  // ON
+  digitalWrite(LED_BUILTIN, HIGH);   // LED on (HIGH is the voltage level)
+  delay(500);
+  //OFF
+  digitalWrite(LED_BUILTIN, LOW);   // LED on (HIGH is the voltage level)
+  delay(1000); 
+ 
+// "O"
+
+  // ON
+  digitalWrite(LED_BUILTIN, HIGH);   // LED on (HIGH is the voltage level)
+  delay(500);  
+  //OFF
+  digitalWrite(LED_BUILTIN, LOW);   // LED on (HIGH is the voltage level)
+  delay(1000);  
+  // ON
+  digitalWrite(LED_BUILTIN, HIGH);   // LED on (HIGH is the voltage level)
+  delay(500);
+  //OFF
+  digitalWrite(LED_BUILTIN, LOW);   // LED on (HIGH is the voltage level)
+  delay(1000);  
+  // ON
+  digitalWrite(LED_BUILTIN, HIGH);   // LED on (HIGH is the voltage level)
+  delay(500);
+  //OFF
+  digitalWrite(LED_BUILTIN, LOW);   // LED on (HIGH is the voltage level)
+  delay(1000);
+// "S"
+  // ON
+  digitalWrite(LED_BUILTIN, HIGH);   // LED on (HIGH is the voltage level)
+  delay(500);
+  //OFF
+  digitalWrite(LED_BUILTIN, LOW);   // LED on (HIGH is the voltage level)
+  delay(500);
+  // ON
+  digitalWrite(LED_BUILTIN, HIGH);   // LED on (HIGH is the voltage level)
+  delay(500);
+  //OFF
+  digitalWrite(LED_BUILTIN, LOW);   // LED on (HIGH is the voltage level)
+  delay(500);
+  // ON
+  digitalWrite(LED_BUILTIN, HIGH);   // LED on (HIGH is the voltage level)
+  delay(500);
+  //OFF
+  digitalWrite(LED_BUILTIN, LOW);   // LED on (HIGH is the voltage level)
+// Two second delay before starting over.
+  delay(2000); 
+}
